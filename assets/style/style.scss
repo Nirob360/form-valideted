@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.from-section{
+    background: url('../image/bg.jpg') no-repeat center center /cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.container{
+   
+
+  .control{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    form {
+
+       
+
+        background-color: rgba(0, 0, 0, 0.534);
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        border-radius: 6px;
+
+
+        label{
+
+             display: block;
+             width: 100%;
+             color: #fff;
+             font-size: 26px;
+             font-weight: 600;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+        }
+
+        small{
+            color: #ff0000;
+            visibility: hidden;
+        }
+           
+        
+        .submit{
+
+         text-align: left;
+         margin-top: 20px;
+    button{
+        padding: 10px 30px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 700;
+
+    }
+        }
+
+
+
+
+       .from-controle-box.error{
+
+        small{
+            color: red;
+            visibility: visible;
+        }
+        input{
+            border: 2px solid red;
+        }
+
+
+
+       } 
+
+       .from-controle-box.success{
+        input{
+            border: 2px solid #36e600;
+        }
+
+       }
+
+        
+    }
+  }
+
+    
+
+
+}
+
+
+
